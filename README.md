@@ -18,7 +18,8 @@ How to dockerize a tomcat application
   `docker run -d -p 8080:8080 tomcat-app`  
 7. Confirm if the container is running   
   `docker ps -a` 
-8. Access your dockerized tomcat application via *http://localhost:8080*
+8. Access your dockerized tomcat application via *http://localhost:8080* on the broswer or  
+  `curl http://localhost:8080` from command line
  
 #### Technologies and Languages used
  1. Docker
