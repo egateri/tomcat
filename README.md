@@ -24,4 +24,4 @@ How to dockerize a tomcat application
  1. Docker
 ####  License
 (c) 2023 Eliud Gateri
-<span style="color:red">some **This is Red Bold.** text</span>
+
