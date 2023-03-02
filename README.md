@@ -16,8 +16,9 @@ How to dockerize a tomcat application
   `docker build -t tomcat-app .`  
 6. Run below command to run the container in docker  
   `docker run -d -p 8080:8080 tomcat-app`  
-7. Access your servlets via *http://localhost:8080*  
-
+7. Confirm if the container is running   
+  `docker ps -a` 
+8. Access your application via *http://localhost:8080* 
 #### Technologies and Languages used
  1. Docker
 ####  License
