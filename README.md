@@ -9,7 +9,7 @@ How to dockerize a tomcat application
 1. Run below command to get the _Dockerfile_ and _sample.war_ files cloned into a project folder.    
  `git clone https://github.com/egateri/tomcat.git`   
 2. Download _apache-tomcat-8.5.85.tar.gz_ and _jdk-8u361-linux-x64.rpm_ and save the files inside the cloned project folder above 
-3. You may replace _sample.war_ with your working WAR file inside the cloned project folder
+3. You may replace _sample.war_ with your working WAR file inside the cloned project folder             
    **NOTE:** Save your WAR file as _sample.war_ or edit the _Dockerfile_ to capture the correct name of your WAR file
 5. Ensure docker is up and running    
    `docker version` 
