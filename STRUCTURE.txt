@@ -14,7 +14,7 @@ PROJECT STRUCTURE:
   |                option_1/ 
   |                 |
   |                 |------> sample.war
-  |-----------------|
+  |---------------->|
   |                 |-----> Dockerfile
   |                 |
   |                 |----->apache*.tar.gz  (download )
@@ -25,7 +25,7 @@ PROJECT STRUCTURE:
   |               option_2/
   |                 |
   |                 |---> sample.war
-  |-----------------|
+  |---------------->|
   |                 |-----> Dockerfile
   |                 |              
   |                 |-----> pom.xml
