@@ -53,7 +53,7 @@ How to dockerize a tomcat application
     the  broswer or  `$curl http://localhost:8081` from command line   
       
 
- ##### OPTION 2 (POM.XML - No download require & Faster)    
+ ##### OPTION 2 (POM.XML - No download required & Faster)    
 
        
            
