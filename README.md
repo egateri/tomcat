@@ -16,7 +16,7 @@ How to dockerize a tomcat application
 
 2.  Clone the _tomcat_ project into your project folder above.    
         
-    `git clone https://github.com/egateri/tomcat.git`    
+    `$git clone https://github.com/egateri/tomcat.git`    
 
  3. You should have two subfolders *option_1* and *option_2* within _tomcat_   
           
@@ -35,22 +35,22 @@ How to dockerize a tomcat application
       
 5. Ensure docker is up and running.  
       
-   `docker version` 
+   `$docker version` 
      
 5. Run below command to build the image.   
      
-   `docker build -t tomcat-app1 .`   
+   `$docker build -t tomcat-app1 .`   
        
 6. Run below command to run the container in docker.   
        
-   `docker run -d -p 8081:8080 tomcat-app1`   
+   `$docker run -d -p 8081:8080 tomcat-app1`   
       
 7. Confirm if the container is running.    
        
-   `docker ps -a`   
+   `$docker ps -a`   
      
 8. Access your dockerized tomcat application via *http://localhost:8081* on    
-    the  broswer or  `curl http://localhost:8081` from command line   
+    the  broswer or  `$curl http://localhost:8081` from command line   
       
 
  ##### OPTION 2 (POM.XML - No download require & Faster)    
@@ -58,29 +58,29 @@ How to dockerize a tomcat application
        
            
     
-  1. Navigate to the *option_1* subfolder.   
+  1. Navigate to the *option_2* subfolder.   
     `$cd tomcat/option_2`    
   2. You may replace _sample.war_ with your working WAR file inside *option_2* folder
    **NOTE:** Save your WAR file as _sample.war_ or edit the _Dockerfile_ to capture the correct name of your WAR file.  
         
   3. Ensure docker is up and running.  
       
-      `docker version` 
+      `$docker version` 
      
 5. Run below command to build the image.     
        
-    `docker build -t tomcat-app2 .`   
+    `$docker build -t tomcat-app2 .`   
          
 6. Run below command to run the container in docker.   
        
-    `docker run -d -p 8082:8080 tomcat-app2`   
+    `$docker run -d -p 8082:8080 tomcat-app2`   
       
 7. Confirm if the container is running.    
        
-    `docker ps -a`   
+    `$docker ps -a`   
      
 8. Access your dockerized tomcat application via *http://localhost:8082* on the  
-   broswer or   `curl http://localhost:8082` from command line.   
+   broswer or   `$curl http://localhost:8082` from command line.   
  
 #### Technologies and Languages used
  1. Docker
