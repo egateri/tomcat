@@ -1,0 +1,33 @@
+PROJECT STRUCTURE:
+
+ tomcat/          
+  |
+  |
+  |
+  |--->README.md
+  |
+  |--->STRUCTURE.txt
+  |
+  |
+  |
+  | 
+  |                option_1/ 
+  |                 |
+  |                 |------> sample.war
+  |-----------------|
+  |                 |-----> Dockerfile
+  |                 |
+  |                 |----->apache*.tar.gz  (download )
+  |                 |        
+  |                 |----->jdk-8u361-linux-x64.rpm (download)
+  |                 | 
+  |                            
+  |               option_2/
+  |                 |
+  |                 |---> sample.war
+  |-----------------|
+  |                 |-----> Dockerfile
+  |                 |              
+  |                 |-----> pom.xml
+  |                                
+ 
